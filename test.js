@@ -21,3 +21,4 @@ getName('aaaa');
 function getNewName(n) {
     return n + '1';
 }
+getNewName('321321');

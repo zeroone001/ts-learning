@@ -29,9 +29,18 @@ function getName (name: Str): string {
 getName('aaaa');
 
 // 类型别名
+// 常用于联合类型
 type Name = String;
+type NameFun = () => string;
+type NameAll = Name | NameFun;
 
-function getNewName(n: Name): Name {
+function getNewName(n: NameAll): Name {
     return n + '1';
 }
 getNewName('321321');
+// 字符串字面量类型
+type eventNames = 'click' | 'scroll';
+function handleEvent (ele: eventNames): string {
+    return ele + '1';
+}
+handleEvent('click');
