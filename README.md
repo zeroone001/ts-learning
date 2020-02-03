@@ -111,3 +111,7 @@ let s: NodeList = document.querySelectorAll('div');
 
 	
 wget https://raw.githubusercontent.com/flyzy2005/ss-fly/master/v2ray.sh && chmod +x v2ray.sh && ./v2ray.sh
+
+12. tsconfig.json
+
+`tsc --init`

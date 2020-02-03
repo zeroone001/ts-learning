@@ -14,3 +14,10 @@ function sum(x, y) {
     return x + y;
 }
 sum(123);
+function getName(name) {
+    return name + 'weqwe';
+}
+getName('aaaa');
+function getNewName(n) {
+    return n + '1';
+}

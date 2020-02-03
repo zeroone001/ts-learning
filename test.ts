@@ -27,3 +27,11 @@ function getName (name: Str): string {
 }
 
 getName('aaaa');
+
+// 类型别名
+type Name = String;
+
+function getNewName(n: Name): Name {
+    return n + '1';
+}
+getNewName('321321');
