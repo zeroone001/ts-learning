@@ -44,3 +44,26 @@ function handleEvent (ele: eventNames): string {
     return ele + '1';
 }
 handleEvent('click');
+// 元组
+let tom: [string, number] = ['dasda', 213];
+// tom[0] = 'dasda';
+// tom[1] = 123;
+console.log(tom);
+
+// 枚举
+enum Days { sun, Mon, Tue };
+
+console.log(Days[0]);
+
+// 类
+
+class Animal {
+    public name: any;
+    public constructor (name:any) {
+        this.name = name;
+    }
+    sayHi (): string {
+        return `dasda ${this.name}`;
+    }
+}
+let a = new Animal('eqw');
