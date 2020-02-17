@@ -115,3 +115,7 @@ wget https://raw.githubusercontent.com/flyzy2005/ss-fly/master/v2ray.sh && chmod
 12. tsconfig.json
 
 `tsc --init`
+
+13. 对象的类型---接口
+
+是对行为的抽象，具体需要类去实现。

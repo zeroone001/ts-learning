@@ -67,3 +67,8 @@ class Animal {
     }
 }
 let a = new Animal('eqw');
+// interface
+
+// 类与接口
+
+//
