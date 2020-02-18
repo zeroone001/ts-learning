@@ -3,11 +3,6 @@ function showName(name) {
 }
 var myname = 'liuyyongsheng';
 console.log(showName(myname));
-var my = {
-    name: 'liuyongsheng',
-    age: 67
-};
-console.log(my);
 // 参数默认值
 function sum(x, y) {
     if (y === void 0) { y = 123; }
@@ -51,3 +46,7 @@ var Animal = /** @class */ (function () {
     return Animal;
 }());
 var a = new Animal('eqw');
+var me = {
+    name: 'eqweq',
+    age: 123
+};

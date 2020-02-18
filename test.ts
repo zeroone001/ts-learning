@@ -4,16 +4,6 @@ function showName (name: string): string {
 let myname: string = 'liuyyongsheng';
 console.log(showName(myname));
 
-interface Person {
-    name: string;
-    age?: number
-}
-let my: Person = {
-    name: 'liuyongsheng',
-    age: 67
-}
-console.log(my);
-
 // 参数默认值
 function sum (x: number, y:number = 123): number {
     return x + y;
@@ -71,4 +61,11 @@ let a = new Animal('eqw');
 
 // 类与接口
 
-//
+interface IPerson {
+    name: string;
+    age?: number; // 可选属性
+}
+
+let me: IPerson = {
+    name: 'eqweq'
+};
